@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build:prod": "npm run build",
+    "preview": "vite preview",
+    "preview:subfolder": "vite preview --base=/react-calculator",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^18.3.1",
