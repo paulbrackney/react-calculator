@@ -45,7 +45,6 @@ function App() {
 
   function divide() {
     let result = 0;
-    const temp = input;
     let tokens = input.split('\u00f7');
     tokens.forEach((token, idxToken) => {
       token.trim();
